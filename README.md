@@ -7,7 +7,8 @@ Cross-platform Python (macOS + Windows + Linux). No packaging.
 ## Install
 
 ```bash
-cd ~/DocNinja/stayawake
+git clone https://github.com/pradhanashutosh/stayawake.git
+cd stayawake
 python3 -m venv .venv
 source .venv/bin/activate    # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
